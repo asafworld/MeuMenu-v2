@@ -1,0 +1,40 @@
+.login-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #b8c1ec;
+  background: linear-gradient(
+    to right,
+    #232946 0%,
+    #232946 46%,
+    black 47%,
+    #121629 47%,
+    #121629 100%
+  );
+}
+
+.login-email-input, .login-password-input {
+  height: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .login-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #b8c1ec;
+  background: linear-gradient(
+    to right,
+    #232946 0%,
+    #232946 16%,
+    black 17%,
+    #121629 17%,
+    #121629 100%
+  );
+}
+}
