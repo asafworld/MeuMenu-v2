@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: #b8c1ec;
+  color: #fffffe;
   background: linear-gradient(
     to right,
     #232946 0%,
@@ -15,6 +15,14 @@
   );
 }
 
+.login-page h1 {
+  font-weight: 700;
+}
+
+.login-page h1, h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .login-logo {
   width: 200px;
 }
@@ -22,6 +30,24 @@
 .login-email-input, .login-password-input {
   height: 50px;
 }
+
+form {
+  margin-bottom: 10px;
+}
+
+.login-button {
+  background-color: #eebbc3;
+  color: #121629;
+  border-color: #eebbc3;
+}
+
+.login-register-link {
+  color: #b8c1ec;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
 
 @media screen and (max-width: 800px) {
   .login-page {

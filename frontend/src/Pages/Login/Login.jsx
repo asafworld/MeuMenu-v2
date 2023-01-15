@@ -1,5 +1,6 @@
-import React from "react";
-import menuContext from "../../ContextAPI/MenuContext";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import menuContext from '../../ContextAPI/MenuContext';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import logo from '../../Images/forksAndKnifes.png';
@@ -43,10 +44,19 @@ function Login() {
               onChange={ ({ target }) => setPass(target.value)}
             />
           </Form.Group>
-          <Button type="submit">
+          <Button
+            type="submit"
+            className="login-button"
+          >
             Log-in
           </Button>
         </form>
+          <Link
+            to="/register"
+            className="login-register-link"
+          >
+            Registre-se!
+          </Link>
       </section>
     </article>
   )
