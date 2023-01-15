@@ -40,5 +40,10 @@
     #121629 17%,
     #121629 100%
   );
-}
+  }
+
+  .login-email-input, .login-password-input {
+    height: auto;
+  }
+  
 }

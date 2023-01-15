@@ -26,7 +26,7 @@ function Login() {
       <section className="login-form-section">
         <form>
           <Form.Group className="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">e-Mail</span>
+            <span className="input-group-text" id="basic-addon1">e-Mail</span>
             <Form.Control
               type="text"
               className="form-control login-email-input"
@@ -35,7 +35,7 @@ function Login() {
             />
           </Form.Group>
           <Form.Group className="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Senha</span>
+            <span className="input-group-text" id="basic-addon1">Senha</span>
             <Form.Control
               type="password"
               className="form-control login-password-input"
