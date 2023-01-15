@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: #b8c1ec;
+  color: #fffffe;
   background: linear-gradient(
     to right,
     #232946 0%,
@@ -15,12 +15,34 @@
   );
 }
 
+.register-page h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
 .register-logo {
   width: 200px;
 }
 
+.register-instructions-section {
+  color: #b8c1ec;
+  margin-bottom: 15px;
+}
+
+.register-instructions-section ul {
+  list-style: none;
+  margin-right: 10%;
+  margin-top: 20px;
+}
+
 .register-email-input, .register-password-input, .register-username-input {
   height: 50px;
+}
+
+.register-button {
+  background-color: #eebbc3;
+  color: #121629;
+  border-color: #eebbc3;
 }
 
 @media screen and (max-width: 800px) {
@@ -39,7 +61,7 @@
     black 17%,
     #121629 17%,
     #121629 100%
-  );
+    );
   }
 
   .register-email-input, .register-password-input, .register-username-input {
