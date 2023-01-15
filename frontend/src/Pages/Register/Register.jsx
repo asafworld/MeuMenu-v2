@@ -31,7 +31,7 @@ function Register() {
             <Form.Control
               type="text"
               className="form-control register-username-input"
-              placeholder="meuUsuário"
+              placeholder="Mín. 5 caracteres"
               value={ username }
               onChange={ ({ target }) => setUser(target.value)}
             />
@@ -51,7 +51,7 @@ function Register() {
             <Form.Control
               type="password"
               className="form-control register-password-input"
-              placeholder="******"
+              placeholder="Mín. 6 caracteres"
               value={ password }
               onChange={ ({ target }) => setPass(target.value)}
             />
@@ -63,16 +63,6 @@ function Register() {
             Registre-se
           </Button>
         </form>
-      </section>
-      <section className="register-instructions-section">
-        <ul>
-          <li>
-            Nome de usuário deve conter no mín. 5 letras!
-          </li>
-          <li>
-            Senha de mín. de 6 caracteres, 1 letra maiúscula e 1 número!
-          </li>
-        </ul>
       </section>
     </article>
   )
