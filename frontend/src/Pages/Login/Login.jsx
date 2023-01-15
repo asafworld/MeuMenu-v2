@@ -2,6 +2,7 @@ import React from "react";
 import menuContext from "../../ContextAPI/MenuContext";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import logo from '../../Images/forksAndKnifes.png';
 import './Login.css';
 
 function Login() {
@@ -14,6 +15,11 @@ function Login() {
   return(
     <article className="login-page">
       <section className="login-welcome-section">
+        <img
+          src={ logo }
+          alt="forks and knifes"
+          className="login-logo"
+        />
         <h1>MeuMenu.com</h1>
         <h4>Eficiente como a sua cozinha!</h4>
       </section>

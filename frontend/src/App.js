@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import MenuContextProvider from './ContextAPI/MenuContextProvider';
 import Login from '../src/Pages/Login/Login';

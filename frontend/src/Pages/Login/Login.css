@@ -15,6 +15,10 @@
   );
 }
 
+.login-logo {
+  width: 200px;
+}
+
 .login-email-input, .login-password-input {
   height: 50px;
 }
