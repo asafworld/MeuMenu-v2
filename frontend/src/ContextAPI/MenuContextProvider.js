@@ -6,6 +6,7 @@ function MenuContextProvider({ children }) {
   const [email, setEmail] = React.useState('');
   const [password, setPass] = React.useState('');
   const [username, setUser] = React.useState('');
+  const [menus, setMenus] = React.useState([]);
 
   const contextValues = {
     email,
@@ -13,7 +14,9 @@ function MenuContextProvider({ children }) {
     password,
     setPass,
     username,
-    setUser
+    setUser,
+    menus,
+    setMenus
   }
 
   return(
