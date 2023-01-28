@@ -1,0 +1,23 @@
+.menu-list-section {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-list-ul {
+  height: 400px;
+  list-style: none;
+  overflow-y: scroll;
+  position: relative;
+}
+
+@media screen and (max-width: 920px) {
+  .menu-list-section {
+    width: auto;
+  }
+
+  .menu-list-ul {
+    height: 120px;
+  }
+}

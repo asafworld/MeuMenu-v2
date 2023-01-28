@@ -1,0 +1,42 @@
+.menu-form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: auto;
+  margin-top: 20px;
+}
+
+form {
+  margin-bottom: 50px;
+}
+
+.menu-form-product-div, .menu-form-drink-div {
+  display: flex;
+}
+
+.price-input {
+  width: 10%;
+}
+
+.menu-form-product-div button, .menu-form-drink-div button {
+  height: 10%;
+}
+
+.to-add-list {
+  list-style: none;
+}
+
+@media screen and (max-width: 920px) {
+  .menu-form-section {
+    width: 100%;
+    height: 50%;
+  }
+
+  .to-add-list {
+    list-style: none;
+    overflow-y: scroll;
+    height: 50px;
+  }
+}
